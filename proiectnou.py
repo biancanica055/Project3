@@ -8,9 +8,6 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 
-# The script starts by importing necessary libraries, including Selenium for web scraping, time for adding delays,
-# pandas for data manipulation, tkinter for creating the GUI, and Pillow (PIL) for working with images.
-
 
 def scrape_data(search_term):
     """
@@ -128,3 +125,4 @@ result_label = tk.Label(frame, text="", font=("Helvetica", 12))
 result_label.pack()
 
 root.mainloop()  # Initiates the main event loop for the Tkinter application
+
